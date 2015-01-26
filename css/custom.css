@@ -1,0 +1,168 @@
+.intro-img {
+  background-image: url('../media/bg1.jpg');
+  background-color: #ffffff;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width:960px) {
+  #intro.intro {
+    padding: 0;
+  }
+  .intro-img {
+    width: 500px;
+    height: 500px;
+  }
+  .intro-wrapper {
+    height:500px;
+  }
+}
+
+
+@media (max-width:768px) {
+  #intro.intro {
+    padding: 0;
+  }
+  .intro-img {
+    width: 480px;
+    height: 480px;
+  }
+  .intro-wrapper {
+    height:480px;
+  }
+}
+
+@media (max-width:480px) {
+  #intro.intro {
+    padding: 0;
+  }
+  .intro-img {
+    width: 336px;
+    height: 336px;
+  }
+  .intro-wrapper {
+    height:336px;
+  }
+}
+
+body {
+  color: #888;
+  background-color: #fff;
+}
+
+
+.intro-title {
+  color: #000;
+  border-color: #FFF;
+  text-shadow: -1px 0 1px #FFF;
+}
+
+.intro-description {
+  color: #000;
+}
+
+.intro-wrapper {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#navigation {
+  background-color: #fff;
+}
+
+.nav.navbar-nav {
+  background-color: #fff;
+}
+
+
+a,a:hover {
+	color: #F5F5F5;
+}
+
+.intro .page-scroll a {
+        color: #aaaaaa;
+	
+}
+
+.intro .page-scroll a:hover {
+	color: #F5F5F5;
+}
+
+.icon:hover .fa{
+	color: #F5F5F5;
+}
+
+ul.nav li a:hover {
+	color: #F5F5F5;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #F5F5F5;
+}
+
+.bg-skin {
+	background: #F5F5F5;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #F5F5F5;
+}
+
+footer {
+    background-color: #F5F5F5;
+}
+
+footer p {
+	color: #494949;
+}
+
+footer a {
+	color: #494949;
+}
+
+footer a:hover {
+	color: #494949;
+}
+
+.btn-skin {
+  color: #F5F5F5;
+  background-color: #929292;
+  border-color: #929292;
+}
+
+a .basic-color, a:hover .basic-color, a:active .basic-color, a:visited .basic-color {
+  color: #888;
+}
+
+
+/* ==========================
+Parallax
+============================= */
+
+#separator {	
+	background-image: url(../media/parallax-bg.jpg);
+}
+
+#separator .icon {
+	margin-bottom: 20px;
+}
+
+#separator span {
+	color: #fff;
+}
+
+#separator:after {	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.7;
+	z-index: -1;
+}
